@@ -10,6 +10,6 @@
 	font-family: 'Century Gothic';
 	src: url('../fonts/century-gothic-bold.ttf') format ('truetype'),
 	url('../fonts/century-gothic-bold.woff') format ('woff');
-	font-style: normal;
+	font-style: bold;
 	font-weight:700;
 }
