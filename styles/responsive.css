@@ -359,7 +359,8 @@
     .simple .simple-item .simple-images,
     .simple .simple-item .simple-item-head,
     .simple .simple-item .simple-item-inner,
-    .simple .simple-item .simple-item-head .simple-item-point {
+    .simple .simple-item .simple-item-head .simple-item-point,
+    .important .man{
         border-width: 1px;
     }
     .above-project-name{
@@ -432,7 +433,7 @@
         margin-bottom: 15px;
     }
      .important .man {
-        min-height: 200px;
+        min-height: 180px;
     }
     .simple{
         padding: 20px 15px;
