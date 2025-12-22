@@ -1,0 +1,493 @@
+@media only screen and (max-width: 1200px) {
+    body{
+        font-size: 20px;
+    }
+    .about-tour-left h2{
+        font-size: 2rem;
+    }
+    .matrix-symbol{
+        font-size: calc(6px + var(--size));
+    }
+    .sphinx h2,
+    .overlay .popup .popup-text {
+        font-size: 2.5rem;
+    }
+    .about-tour-left{
+        padding: 26px 0px;
+    }
+     .about-tour-right .about-tour-item .tour-plus {
+         padding: 15px;
+    }
+    .about-tour-desc-border:not(:has(> .about-tour-desc-border)){
+        padding: 20px 10px 20px 16px;
+    }
+    footer .footer-bottom {
+        font-size: 1rem;
+    }
+    .overlay .popup{
+        min-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .about-tour-left h2 {
+        font-size: 1.75rem;
+        line-height: 1.1;
+    }
+    .subline-text{
+        font-size: 2.5rem;
+    }
+    .subline{
+        gap: .58rem;
+    }
+    .subline .squar{
+        height: 1.5rem;
+        background: repeating-linear-gradient(to right, var(--primary) 0, var(--primary) 0.58rem, transparent 0.58rem, transparent 1.18rem);
+        min-width: .58rem;
+    }
+    .about-tour-right .about-tour-item .tour-plus{
+        padding: 10px;
+    }
+    .about-tour-left {
+         padding: 18px 0px;
+     }
+    .about-tour-right .about-tour-item .tour-point {
+        padding: 3px;
+        border-right: 2px solid var(--primary);
+    }
+    
+    .about-tour-right .tour-point .tour-point-inner {
+        padding: 3px;
+        min-width: 20px;
+    }
+    .about-tour-right .tour-point .tour-point-inner:nth-child(3) {
+        display: none;
+    }
+    .about-tour-desc,
+    .about-tour-desc-border{
+        padding-right: 3px;
+    }
+    .about-tour-desc-border:not(:has(> .about-tour-desc-border)) {
+        padding: 16px 10px 16px 16px;
+    }
+    .about-tour-right .tour-point .tour-point-inner:not(:has(> .tour-point-inner)){
+        padding: 3px 2px;
+    }
+    .about-tour-right .tour-point .tour-point-inner svg{
+        height: 22px;
+    }
+    .sphinx h2,
+    .overlay .popup .popup-text {
+        font-size: 2rem;
+    }
+    .important .man{
+        min-height: 160px;
+    }
+    .simple .simple-item .simple-item-head{
+        gap: 14px;
+    }
+    .simple .simple-item .simple-item-desc {
+        padding: 12px;
+    }
+    .sphinx .about-tour-desc-border:not(:has(> .about-tour-desc-border)) {
+        padding: 40px 10px 40px 18px;
+    }
+    .button {
+        background-size: 220px;
+        background-position-x: calc(100% - 16px);
+        padding: 16px 20px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    body {
+        font-size: 18px;
+    }
+    h3{
+        font-size: 1.75rem;
+    }
+    section:not(.section-1),
+    .about-tour{
+        margin-bottom: 48px;
+    }
+    .subline{
+        margin: 48px auto 48px auto;
+        gap: .48rem;
+    }
+    .about-tour-right .tour-point .tour-point-inner svg {
+        height: 20px;
+     }
+    .about-tour-right .tour-point .tour-point-inner {
+        min-width: 14px;
+    }
+    .about-tour-left h2 {
+        font-size: 1.4rem;
+    }
+    .subline-text {
+        font-size: 2rem;
+    }
+    .subline .squar {
+        height: 1.2rem;
+        background: repeating-linear-gradient(to right, var(--primary) 0, var(--primary) 0.44rem, transparent 0.44rem, transparent .9rem);
+        min-width: .44rem;
+    }
+    .sphinx h2, .overlay .popup .popup-text {
+        font-size: 1.8rem;
+    }
+    .about-tour-right .about-tour-item .tour-point,
+    .about-tour-right .tour-point .tour-point-inner,
+    .about-tour-right .tour-point .tour-point-inner:not(:has(> .tour-point-inner)) {
+        padding: 2px;
+     }
+    .about-tour-desc,
+    .about-tour-desc-border{
+        padding-right: 2px;
+    }
+    .letters svg {
+        padding: 6px;
+    }
+    .simple .simple-item .simple-item-head,
+    .simple .simple-item .simple-item-head .simple-item-point{
+        padding: 3px;
+    }
+    .simple .simple-item .simple-images{
+        padding: 20px;
+    }
+    .simple .simple-item .simple-item-head {
+        gap: 8px;
+    }
+    .simple .simple-item .simple-item-desc {
+        padding: 10px 6px;
+    }
+    .simple .simple-item:not(:first-child) .simple-item-head::after {
+        background-size: 14px 16px;
+        width: 14px;
+        margin-left: -22px;
+        height: 16px;
+    }
+    .about-tour-right .about-tour-item .tour-plus {
+        padding: 6px 8px;
+    }
+    .about-tour-right .tour-point .tour-point-inner{
+        border-width: 1.5px;
+    }
+    .sphinx .about-tour-desc-border:not(:has(> .about-tour-desc-border)) {
+        padding: 30px 10px 30px 16px;
+    }
+    .button{
+        padding: 12px 18px;
+     }
+    .about-tour-left .about-tour-images .symbol{
+        width: 60px;
+    }
+    .important .man img{
+        height: 90%;
+    }
+    .about-tour-left .about-tour-images{
+        margin: 8px 0;
+    }
+    .about-tour-left {
+        padding: 14px 0px;
+    }
+    footer {
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+     footer .footer-bottom {
+         font-size: 0.9rem;
+    }
+    footer svg {
+        width: 140px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+            margin: 0 20px;
+    }
+    .matrix-bg{
+        width: calc(100% - 40px);
+    }
+    section:not(.section-1), .about-tour{
+        margin-bottom: 36px;
+    }
+    .subline {
+        margin: 36px auto 36px auto;
+    }
+    .about-tour{
+        flex-direction: column;
+    }
+    .about-tour-left,
+    .about-tour-right{
+        width: 100%;
+    }
+    .about-tour-left{
+        padding: 26px 0px;
+    }
+    .about-tour-left .about-tour-images .symbol {
+        width: 80px;
+     }
+
+    .about-tour-right .tour-point .tour-point-inner{
+        min-width: 20px;
+    }
+    .about-tour-right .about-tour-item .tour-plus{
+        padding:10px;
+    }
+    .about-tour-right .tour-point .tour-point-inner svg {
+        height: 22px;
+    }
+    .letters{
+        flex-wrap: wrap;
+    }
+    .letters svg{
+        width: calc(100% / 8 - 10px);
+    }
+    .letters svg:nth-last-child(-n+4){
+        display: none;
+    }
+    .about-tour-left h2 {
+        font-size: 1.6rem;
+    }
+    @keyframes fallmaxtrix {
+            0% {
+                top: -10%;
+                opacity: 1;
+                transform: rotate(90deg) scale(0.8);
+            }
+    
+            10% {
+                opacity: 1;
+                transform: rotate(90deg) scale(1);
+            }
+    
+            90% {
+                opacity: 1;
+                transform: rotate(90deg) scale(1);
+            }
+    
+            100% {
+                top: 30vh;
+                opacity: 0;
+                transform: rotate(90deg) scale(1.2);
+            }
+        }
+    .about-tour-right .about-tour-item .tour-point, .about-tour-right .tour-point .tour-point-inner, .about-tour-right .tour-point .tour-point-inner:not(:has(> .tour-point-inner)) {
+        padding: 3px;
+    }
+    .about-tour-desc, .about-tour-desc-border {
+        padding-right: 3px;
+    }
+    .simple-items{
+        flex-direction: column;
+    }
+    .simple .simple-item{
+        width: 100%;
+        flex-direction: row;
+    }
+    .simple .simple-item .simple-item-inner,
+    .simple .simple-item .simple-images {
+        width: calc(100% / 2 - 10px);
+    }
+    .simple .simple-item:not(:first-child) .simple-item-head::after {
+        margin-left: 3px;
+        transform: rotate(90deg);
+        margin-top: -50px;
+    }
+    .simple .simple-item .simple-item-inner{
+        justify-content: flex-start;
+    }
+    .sphinx{
+        flex-direction: column-reverse;
+    }
+    .sphinx .sphinx-left, 
+    .sphinx .sphinx-right{
+        width: 100%;
+    }
+    .sphinx h2{
+        margin-bottom: 15px;
+        line-height: 1.1;
+    }
+    .sphinx-right svg{
+        margin-top: 100px;
+    }
+
+    .sphinx .about-tour-desc-border:not(:has(> .about-tour-desc-border)){
+        text-align: center;
+    }
+    .important{
+        flex-direction: column-reverse;
+    }
+    .important .man{
+        width: 100%;
+        padding: 0;
+    }
+    .important .man img{
+        height: 100%;
+    }
+    .overlay .popup .close svg{
+        width: 36px;
+    }
+    footer .footer-bottom{
+        flex-direction: column;
+        gap: 8px;
+    }
+    footer {
+        margin: 36px 20px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        font-size: 1rem;
+    }
+    main {
+        margin: 0 15px;
+    }
+    .matrix-bg{
+        width: calc(100% - 30px);
+    }
+    .matrix-symbol {
+        font-size: calc(3px + var(--size));
+    }
+    .about-tour-left,
+    .about-tour-right .about-tour-item,
+    .about-tour-right .about-tour-item .tour-point,
+    .about-tour-desc,
+    .about-tour-desc-border,
+    .letters svg,
+    .simple,
+    .simple .simple-item .simple-images,
+    .simple .simple-item .simple-item-head,
+    .simple .simple-item .simple-item-inner,
+    .simple .simple-item .simple-item-head .simple-item-point {
+        border-width: 1px;
+    }
+    .above-project-name{
+        margin-bottom: 16px;
+    }
+    section:not(.section-1), .about-tour {
+        margin-bottom: 30px;
+    }
+    .subline-text {
+        font-size: 1.5rem;
+        padding: 0 .30rem;
+    }
+    .subline{
+        gap: .3rem;
+        margin: 30px auto 30px auto;
+    }
+    .subline .squar {
+        height: 0.9rem;
+        background: repeating-linear-gradient(to right, var(--primary) 0, var(--primary) 0.3rem, transparent 0.3rem, transparent .65rem);
+        min-width: .3rem;
+    }
+    .about-tour-left h2 {
+        font-size: 1.4rem;
+    }
+    .about-tour-left .about-tour-images .symbol {
+        width: 60px;
+    }
+    .sphinx h2, .overlay .popup .popup-text {
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.3rem;
+        margin: -26px 0px 20px 0px;
+    }
+    .simple .simple-item{
+        flex-direction: column;
+    }
+     .simple .simple-item .simple-images {
+        padding: 0px;
+     }
+    .simple .simple-item .simple-item-inner, 
+    .simple .simple-item .simple-images {
+        width: 100%;
+    }
+    .simple .simple-item .simple-images svg {
+        max-width: calc(100% - 70px);
+        max-height: 70px;
+        object-fit: contain;
+        padding: 20px;
+    }
+    .simple .simple-item:not(:first-child) .simple-item-head::after{
+        display: none;
+    }
+    .about-tour-desc-border:not(:has(> .about-tour-desc-border)){
+        padding: 14px 10px 14px 14px;
+    }
+    .letters svg:nth-last-child(-n+6) {
+        display: none;
+    }
+    .about-tour,
+    .about-tour-right .about-tour-items,
+    .letters,
+    .simple .simple-item{
+        gap: 15px;
+    }
+    .letters svg {
+        width: calc(100% / 6 - 15px);
+    }
+    .about-tour-desc{
+        margin-bottom: 15px;
+    }
+     .important .man {
+        min-height: 200px;
+    }
+    .simple{
+        padding: 20px 15px;
+    }
+    footer {
+        margin: 30px 15px;
+    }
+     @keyframes fallmaxtrix {
+            0% {
+                top: -10%;
+                opacity: 1;
+                transform: rotate(90deg) scale(0.8);
+            }
+    
+            10% {
+                opacity: 1;
+                transform: rotate(90deg) scale(1);
+            }
+    
+            90% {
+                opacity: 1;
+                transform: rotate(90deg) scale(1);
+            }
+    
+            100% {
+                top: 45vh;
+                opacity: 0;
+                transform: rotate(90deg) scale(1.2);
+            }
+     }
+     .above-project-name{
+        width: 68%;
+     }
+}
+@media only screen and (max-width: 475px) {
+    .about-tour-items{
+        flex-direction: column;
+    }
+    .subline-text {
+        font-size: 1.2rem;
+    }
+    .subline .squar{
+        height: 0.74rem;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .subline-text {
+        font-size: 1rem;
+        padding: 0 .22rem;
+    }
+    .subline .squar{
+        height: 0.65rem;
+        background: repeating-linear-gradient(to right, var(--primary) 0, var(--primary) 0.25rem, transparent 0.25rem, transparent .49rem);
+    }
+    .sphinx-right svg {
+        margin-top: 80px;
+    }
+}
