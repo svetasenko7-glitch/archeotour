@@ -286,6 +286,7 @@ h3 {
 	justify-content: center;
 	width: calc(50% - 10px);
 	background: var(--bg);
+	cursor: default;
 }
 
 .about-tour-left:hover {
@@ -478,6 +479,7 @@ h3 {
 	color: var(--grey);
 	padding: 0 4px 0;
 	margin-bottom: 20px;
+	cursor: default;
 }
 
 .about-tour-desc-border {
@@ -771,6 +773,7 @@ h3 {
 	padding: 25px 20px;
 	color: var(--primary);
 	line-height: 1.2;
+	cursor: default;
 }
 
 .simple .simple-item .simple-item-inner {
@@ -785,6 +788,7 @@ h3 {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
+	cursor: default;
 }
 
 .simple .simple-item .simple-images {
