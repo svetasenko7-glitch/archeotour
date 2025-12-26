@@ -331,7 +331,7 @@ h3 {
 }
 
 .about-tour-right {
-	cursor: context-menu;
+	cursor: default;
 	width: calc(50% - 10px);
 }
 
