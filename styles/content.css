@@ -379,8 +379,8 @@ h3 {
 .about-tour-right .tour-point .tour-point-inner {
 	border: 2px solid var(--primary);
 	padding: 4px;
-	height: -webkit-fill-available;
-	height: -moz-available;
+	max-height: -webkit-fill-available;
+	max-height: -moz-available;
 	height: stretch;
 	-webkit-animation: pulseborder 2s infinite;
 	animation: pulseborder 2s infinite;
